@@ -92,3 +92,8 @@ h1 {
 .bestsellertitle {
   background-color: #ecb5ac;
 }
+
+.main-articles {
+  background-color: pink;
+  height: 50vh;
+}
