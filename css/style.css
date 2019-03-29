@@ -76,6 +76,7 @@ li:hover {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   height: 8vh;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -94,6 +95,12 @@ h1 {
 }
 
 .main-articles {
-  background-color: pink;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   height: 50vh;
+}
+
+.reviews {
+  background-color: #92d4d2;
 }
