@@ -9,12 +9,21 @@ body {
 
 .main-header {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 10px;
+  grid-template-columns: .5fr 1fr;
+  grid-gap: 0px;
   margin-bottom: 10px;
   height: 20vh;
   margin: 10px;
-  box-sizing: border-box;
+}
+
+.mainlogo {
+  width: 10vw;
+  background-image: url(../images/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
@@ -22,9 +31,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px;
-  display: flex;
-  flex-direction: column;
 }
 
 .menu a {
@@ -39,15 +45,16 @@ body {
 	grid-gap: 10px;
   background-color: pink;
   height: 7vh;
+  width: 87.5vw;
 }
 
 .menu li {
 	color: white;
 	font-family: Gotham;
 	list-style: none;
-	padding: 25px;
+	padding: 10px;
   padding-top: 15px;
-  padding-left: 150px;
+  padding-left: 10px;
 	font-size: 15px;
 	text-align: center;
 }
@@ -66,7 +73,7 @@ li:hover {
 .showcase{
   margin-bottom: 10px;
 	height: 100vh;
-  width: 97vw;
+  width: 97.5vw;
   margin: 10px;
   overflow: hidden;
   position: relative;
@@ -173,7 +180,6 @@ li:hover {
   grid-template-columns: 1fr 1fr;
   grid-gap: 0px;
   height: 60vh;
-  weight: 50vw;
 }
 
 p {
@@ -203,8 +209,6 @@ p {
   grid-template-columns: 1fr 1fr;
   grid-gap: 0px;
   height: 60vh;
-  weight: 50vw;
-
 }
 
 .image2 {
