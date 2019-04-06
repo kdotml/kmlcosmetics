@@ -99,6 +99,7 @@ p {
   width: 100vw;
   margin: 10px;
   border: 10px;
+  margin-bottom: 10px;
 }
 
 .menu2 li {
@@ -106,16 +107,25 @@ p {
 	color: white;
 	font-family: Verdana;
 	list-style: none;
-  height: 7vh;
+  height: 5vh;
   width: 20vw;
 	font-size: 20px;
   padding: 10px;
   padding-top: 10px;
   padding-left: 10px;
 	text-align: center;
+  margin-bottom: 10px;
 }
 
 
 .menu2 a {
 	text-decoration: none;
+}
+
+.title2 {
+  background-color: #fcbfae;
+  height: 7vh;
+  margin-bottom: 10px;
+  margin: 10px;
+  margin-top: 30px;
 }
