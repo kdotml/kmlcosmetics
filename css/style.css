@@ -139,7 +139,6 @@ li:hover {
   }
 
 
-
 .reviewsandbestseller {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -184,7 +183,7 @@ li:hover {
 
 p {
   padding: 10px;
-  font-family: Avenir-Book;
+  font-family: Verdana;
   text-align: justify;
 }
 
