@@ -165,10 +165,11 @@ h2 {
   padding: 10px;
   color: white;
   text-align: center;
+  font-family: Helvetica;
 }
 
 #description {
-  font-family: Gotham;
+  font-family: Helvetica;
   font-size: 19px;
   color: black;
   padding-top: 0px;
@@ -180,7 +181,7 @@ h2 {
 }
 
 h1 {
-  font-family: Gotham;
+  font-family: Helvetica;
   padding-top:10px;
   padding-left:10px;
   padding-right:10px;
@@ -188,7 +189,7 @@ h1 {
 }
 
 #price {
-  font-family: Gotham;
+  font-family: Helvetica;
   text-align: left;
   color: black;
 }
@@ -199,7 +200,7 @@ h1 {
     box-shadow: 0 0 15px grey;
     padding: 10px 20px;
     padding-top: 10px;
-    font-family: Gotham;
+    font-family: Helvetica;
     color: #492b09;
     margin-left: 850px;
 }
