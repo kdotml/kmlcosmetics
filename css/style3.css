@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/bg.jpg);
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  grid-gap: 0px;
+  margin-bottom: 10px;
+  height: 20vh;
+  margin: 10px;
+}
+
+.mainlogo {
+  width: 10vw;
+  background-image: url(../images/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  background-image: url(../images/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu a {
+	text-decoration: none;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 0px;
+	margin: 0px;
+	grid-gap: 10px;
+  background-color: pink;
+  height: 7vh;
+  width: 87.5vw;
+}
+
+.menu li {
+	color: white;
+	font-family: Gotham;
+	list-style: none;
+	padding: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+li:hover {
+  opacity: 0.5;
+ 	filter: alpha(opacity=50);
+}
+
+.separator {
+  grid-gap: 10px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+.makeup {
+  background-color: #fcbfae;
+  height: 7vh;
+  margin-bottom: 10px;
+  margin: 10px;
+}
+
+h2 {
+  font-family: Helvetica;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.product1 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  height: 50vh;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.product2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  height: 50vh;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.product3 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  height: 50vh;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.product4 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  height: 50vh;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.image1 {
+  border: 2px solid black;
+}
+
+.image2 {
+  background-image: url(../images/liptint2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image3 {
+  background-image: url(../images/lippie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image4 {
+  border: 2px solid black;
+}
+
+.description {
+  border: 2px solid black;
+}
+
+.footer {
+  background-color: #fcbfae;
+  height: 5vh;
+  margin: 10px;
+}
+
+#footer {
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
