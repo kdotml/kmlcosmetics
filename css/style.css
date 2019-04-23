@@ -50,7 +50,7 @@ body {
 
 .menu li {
 	color: white;
-	font-family: Gotham;
+	font-family: Quicksand;
 	list-style: none;
 	padding: 10px;
   padding-top: 15px;
@@ -184,7 +184,7 @@ li:hover {
 
 p {
   padding: 10px;
-  font-family: Verdana;
+  font-family: Quicksand;
   text-align: justify;
 }
 
